@@ -1,0 +1,479 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    img {
+        /* display: flex; */
+        width: 100%;
+        height: auto;
+        height: 400px;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+    .title {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .audiocontainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: -35px;
+    }
+    
+    audio {
+        width: 200px;
+        height: 30px;
+    }
+    
+    video {
+        width: 100%;
+        height: 25%;
+    }
+    /* .margintop {
+        margin-top: -500px;
+    } */
+    /* .titrepagebonus {
+            position: absolute; */
+    /* right: 650px; */
+    /* margin-top: -500px; */
+    /* margin-left: 50px; */
+    /* color: white;
+            text-shadow: 1px 1px 2px #496C0F, 0 0 1em blue, 0 0 0.2em blue;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 40px; */
+    /* } */
+    
+    .arbustre {
+        display: flex;
+        float: right;
+        width: 500px;
+        height: 400px;
+        padding: 15px;
+    }
+    
+    h1 {
+        position: absolute;
+        /* right: 650px; */
+        margin-top: -350px;
+        /* margin-left: 50px; */
+        color: white;
+        text-shadow: 1px 1px 2px #496C0F, 0 0 1em blue, 0 0 0.2em blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }
+    
+    nav {
+        background-color: #496C0F;
+        margin-top: 0px;
+        /* opacity: 0.9; */
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0px;
+        height: 40px;
+        margin-bottom: 0px;
+        align-items: center;
+    }
+    
+    li {
+        display: inline-flex;
+        color: white;
+        border: inset;
+        border-bottom: 0px;
+        margin-top: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 27px;
+    }
+    
+    a :hover {
+        color: darkseagreen;
+    }
+    /* section {
+                                display: flex;
+                                flex-direction: column;
+                                background-color: #C8E2EB;
+                                margin: 10px;
+                            } */
+    
+    section {
+        border: 10px solid #8AA9D9;
+        background-color: #C8E2EB;
+        overflow: auto;
+        padding: 2px;
+    }
+    
+    .firsttitle {
+        display: flex;
+        justify-content: left;
+        padding: 10px;
+    }
+    
+    article {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    p {
+        font-size: 22px;
+        padding: 10px;
+        font-family: 'Kreon', serif;
+        text-align: justify;
+    }
+    
+    h2 {
+        font-size: 30px;
+        /* padding: 2px; */
+        text-align: center;
+    }
+    
+    .leaf {
+        /* float: right; */
+        /* width: 600px; */
+        /* height: 500px; */
+        width: 400px;
+        height: 500px;
+        margin: 10px;
+        /* padding: 15px; */
+    }
+    
+    .solaire {
+        /* float: left; */
+        /* width: 1000px;
+    height: 300px; */
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        /* padding: 15px; */
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        background-color: #496C0F;
+        height: 40px;
+        margin-bottom: 0px;
+    }
+    
+    .facebook {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .pied {
+        display: flex;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        /* padding-right: 90px; */
+    }
+    
+    .twitter {
+        height: 40px;
+        width: 40px;
+    }
+    
+    .prise1 {
+        float: right;
+        width: 300px;
+        height: 1770px;
+    }
+    
+    .prise2 {
+        float: left;
+        width: 300px;
+        height: 1770px;
+    }
+    
+    #ameliorer {
+        height: 260px;
+        width: 590px;
+    }
+    
+    .dropdown {
+        display: none;
+    }
+    
+    .leaf2 {
+        display: none;
+    }
+    
+    .solaire2 {
+        display: none;
+    }
+    
+    @media screen and (min-width: 1105px) and (max-width: 1440px) {
+        .leaf2 {
+            display: none;
+        }
+        .solaire2 {
+            display: none;
+        }
+        .dropdown {
+            display: none;
+        }
+        p {
+            font-size: 15px;
+        }
+        .arbustre {
+            display: flex;
+            float: right;
+            width: 400px;
+            height: 300px;
+            padding: 15px;
+        }
+        nav {
+            background-color: #496C0F;
+            margin-top: 0px;
+            /* opacity: 0.9; */
+        }
+        ul {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 0px;
+            height: 40px;
+            margin-bottom: 0px;
+            align-items: center;
+        }
+        li {
+            display: inline-flex;
+            color: white;
+            font-size: 25px;
+            border: inset;
+            border-bottom: 0px;
+        }
+    }
+    
+    @media screen and (min-width: 870px) and (max-width: 1104px) {
+        /* ul li {
+                                    display: none
+                                } */
+        .leaf2 {
+            display: none;
+        }
+        .solaire2 {
+            display: none;
+        }
+        .leaf {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        ul {
+            display: none;
+        }
+        p {
+            font-size: 15px;
+        }
+        .arbustre {
+            display: flex;
+            float: right;
+            width: 400px;
+            height: 300px;
+            padding: 15px;
+        }
+        button {
+            margin-top: 0px;
+        }
+        .dropbtn {
+            background-color: #496C0F;
+            color: white;
+            /* padding: 16px; */
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            height: 40px;
+        }
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            background-color: #496C0F;
+            height: 40px;
+        }
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #C8E2EB;
+            min-width: 100%;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            text-align: center;
+        }
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border: 1px solid black;
+        }
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #C8E2EB;
+        }
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+            background-color: #8AA9D9;
+        }
+        /* .dropbtn {
+                                background-color: #496C0F;
+                                color: white;
+                                padding: 16px;
+                                font-size: 16px;
+                                border: none;
+                                cursor: pointer;
+                            } */
+        /* The container <div> - needed to position the dropdown content */
+        /* .dropdown {
+                                position: relative;
+                                display: inline-block;
+                            } */
+        /* Dropdown Content (Hidden by Default) */
+        /* .dropdown-content {
+                                display: none;
+                                position: absolute;
+                                background-color: powderblue;
+                                min-width: 160px;
+                                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                                z-index: 1; */
+        /* Links inside the dropdown */
+        /* .dropdown-content a {
+                                color: black;
+                                padding: 12px 16px;
+                                text-decoration: none;
+                                display: block; */
+        /* Change color of dropdown links on hover */
+        /* .dropdown-content a:hover {
+                                background-color: #f1f1f1 */
+        /* Show the dropdown menu on hover */
+        /* .dropdown:hover .dropdown-content {
+                                display: block; */
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        /* .dropdown:hover .dropbtn {
+                                background-color: #3e8e41;
+                            } */
+    }
+    
+    @media screen and (max-width: 869px) {
+        .prise1 {
+            width: 70px;
+            height: 670px;
+        }
+        .prise2 {
+            width: 70px;
+            height: 670px;
+        }
+        .leaf {
+            display: none;
+            /* width: 200px;
+            height: 100px;
+            margin: 10px; */
+        }
+        .leaf2 {
+            display: flex;
+            float: right;
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+        }
+        .solaire {
+            display: none;
+        }
+        .solaire2 {
+            display: flex;
+            float: left;
+            padding: 10px;
+            width: 250px;
+            height: 80px;
+        }
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 15px;
+        }
+        .arbustre {
+            display: none;
+        }
+        ul {
+            display: none;
+        }
+        button {
+            margin-top: 0px;
+        }
+        .dropbtn {
+            background-color: #496C0F;
+            color: white;
+            /* padding: 16px; */
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            height: 40px;
+        }
+        /* The container <div> - needed to position the dropdown content */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+            background-color: #496C0F;
+        }
+        /* Dropdown Content (Hidden by Default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #C8E2EB;
+            min-width: 100%;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            text-align: center;
+        }
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            border: 1px solid black;
+        }
+        a :hover {
+            color: darkseagreen;
+        }
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #C8E2EB;
+        }
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+            background-color: #8AA9D9;
+        }
+    }
